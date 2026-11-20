@@ -1,0 +1,56 @@
+2026-08-15 15:00:08,729 | INFO | crawler | [hh] | Returning chromium browser type
+2026-08-15 15:00:08,729 | INFO | crawler | [hh] | Launching chromium browser
+2026-08-15 15:00:08,788 | INFO | crawler | [hh] | Creating chromium browser new page
+2026-08-15 15:00:08,818 | INFO | crawler | [hh] | Loading page on url: https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true
+2026-08-15 15:00:09,745 | INFO | crawler | [hh] | Loaded page on url: https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true
+2026-08-15 15:00:09,745 | INFO | crawler | [hh] | Waiting for timeout: 3000ms
+2026-08-15 15:00:12,747 | INFO | crawler | [hh] | Getting locator with selector: div[data-qa='vacancies-search-header'] on page: <Page url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'>
+2026-08-15 15:00:12,748 | INFO | crawler | [hh] | Checking elements count of locator: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="div[data-qa='vacancies-search-header']">
+2026-08-15 15:00:12,767 | INFO | crawler | [hh] | Getting locator with selector: h1[data-qa='title'] with parent: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="div[data-qa='vacancies-search-header']">
+2026-08-15 15:00:12,767 | INFO | crawler | [hh] | Checking elements count of locator: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="div[data-qa='vacancies-search-header'] >> h1[data-qa='title']">
+2026-08-15 15:00:12,769 | INFO | crawler | [hh] | Getting locator with selector: span with parent: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="div[data-qa='vacancies-search-header'] >> h1[data-qa='title']">
+2026-08-15 15:00:12,769 | INFO | crawler | [hh] | Checking elements count of locator: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="div[data-qa='vacancies-search-header'] >> h1[data-qa='title'] >> span">
+2026-08-15 15:00:12,775 | INFO | crawler | [hh] | Vacancies total count: 1532
+2026-08-15 15:00:12,775 | INFO | crawler | [hh] | Getting locator with selector: nav[data-qa='pager-block'] on page: <Page url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'>
+2026-08-15 15:00:12,775 | INFO | crawler | [hh] | Checking elements count of locator: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="nav[data-qa='pager-block']">
+2026-08-15 15:00:12,777 | INFO | crawler | [hh] | Getting locator with selector: li div a[data-qa='pager-page'] with parent: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="nav[data-qa='pager-block']">
+2026-08-15 15:00:12,777 | INFO | crawler | [hh] | Checking elements count of locator: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=frontend&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list&L_save_area=true'> selector="nav[data-qa='pager-block'] >> li div a[data-qa='pager-page']">
+2026-08-15 15:00:12,781 | INFO | crawler | [hh] | 31 pages found
+2026-08-15 15:00:12,781 | INFO | crawler | [hh] | Pages total count: 31
+2026-08-15 15:00:12,781 | INFO | crawler | [hh] | Closing chromium browser
+
+
+
+2026-08-15 15:07:12,832 | INFO | crawler | [hh] | Returning chromium browser type
+2026-08-15 15:07:12,832 | INFO | crawler | [hh] | Launching chromium browser
+2026-08-15 15:07:15,080 | INFO | crawler | [hh] | Creating chromium browser new page
+2026-08-15 15:07:15,635 | INFO | crawler | [hh] | Loading page on url: https://kazan.hh.ru/search/vacancy
+2026-08-15 15:07:17,450 | INFO | crawler | [hh] | Loaded page on url: https://kazan.hh.ru/search/vacancy
+2026-08-15 15:07:17,450 | INFO | crawler | [hh] | Waiting for selector: input[data-qa='search-input']
+2026-08-15 15:07:17,759 | INFO | crawler | [hh] | Waiting for timeout: 3000ms
+2026-08-15 15:07:20,760 | INFO | crawler | [hh] | Closing popup
+2026-08-15 15:07:20,761 | INFO | crawler | [hh] | Getting locator with selector: [data-qa='cookies-policy-informer-accept'] on page: <Page url='https://kazan.hh.ru/search/vacancy'>
+2026-08-15 15:07:20,769 | INFO | crawler | [hh] | Locator <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy'> selector="[data-qa='cookies-policy-informer-accept'] >> nth=0"> is visible
+2026-08-15 15:07:20,828 | INFO | crawler | [hh] | Waiting for timeout: 500ms
+2026-08-15 15:07:21,330 | INFO | crawler | [hh] | Popup found with selector [data-qa='cookies-policy-informer-accept'] was closed
+2026-08-15 15:07:21,330 | INFO | crawler | [hh] | Closing popup
+2026-08-15 15:07:21,330 | INFO | crawler | [hh] | Getting locator with selector: button:has-text('Продолжить без номера') on page: <Page url='https://kazan.hh.ru/search/vacancy'>
+2026-08-15 15:07:21,338 | INFO | crawler | [hh] | Locator <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy'> selector="button:has-text('Продолжить без номера') >> nth=0"> is not visible
+2026-08-15 15:07:21,338 | INFO | crawler | [hh] | Getting locator with selector: text=Позже on page: <Page url='https://kazan.hh.ru/search/vacancy'>
+2026-08-15 15:07:21,351 | INFO | crawler | [hh] | Locator <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy'> selector='text=Позже >> nth=0'> is not visible
+2026-08-15 15:07:21,351 | INFO | crawler | [hh] | Getting locator with selector: button:has-text('Продолжить без телефона') on page: <Page url='https://kazan.hh.ru/search/vacancy'>
+2026-08-15 15:07:21,356 | INFO | crawler | [hh] | Locator <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy'> selector="button:has-text('Продолжить без телефона') >> nth=0"> is not visible
+2026-08-15 15:07:21,356 | INFO | crawler | [hh] | Getting locator with selector: button:has-text('Не сейчас') on page: <Page url='https://kazan.hh.ru/search/vacancy'>
+2026-08-15 15:07:21,359 | INFO | crawler | [hh] | Locator <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy'> selector="button:has-text('Не сейчас') >> nth=0"> is not visible
+2026-08-15 15:07:21,359 | INFO | crawler | [hh] | Getting locator with selector: [data-qa='bloko-modal-close'] on page: <Page url='https://kazan.hh.ru/search/vacancy'>
+2026-08-15 15:07:21,361 | INFO | crawler | [hh] | Locator <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy'> selector="[data-qa='bloko-modal-close'] >> nth=0"> is not visible
+2026-08-15 15:07:21,361 | INFO | crawler | [hh] | Popup was not found
+2026-08-15 15:07:21,361 | INFO | crawler | [hh] | Pressing keyboard with key: Escape
+2026-08-15 15:07:21,364 | INFO | crawler | [hh] | Escape key was pressed to close phone popup
+2026-08-15 15:07:21,364 | INFO | crawler | [hh] | Waiting for timeout: 500ms
+2026-08-15 15:07:47,579 | INFO | crawler | [hh] | Getting locator with selector: form[data-hh-tab-id='searchVacancy'] on page: <Page url='https://kazan.hh.ru/search/vacancy'>
+2026-08-15 15:07:47,580 | INFO | crawler | [hh] | Checking elements count of locator: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy'> selector="form[data-hh-tab-id='searchVacancy']">
+2026-08-15 15:07:47,594 | INFO | crawler | [hh] | Getting locator with selector: button[type='submit'] with parent: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?ored_clusters=true&hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=fronted&experience=between1And3&search_field=name&search_field=company_name&search_field=description&enable_snippets=false&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list'> selector="form[data-hh-tab-id='searchVacancy']">
+2026-08-15 15:07:47,594 | INFO | crawler | [hh] | Checking elements count of locator: <Locator frame=<Frame name= url='https://kazan.hh.ru/search/vacancy?ored_clusters=true&hhtmFrom=vacancy_search_list&hhtmFromLabel=chip_filter&text=fronted&experience=between1And3&search_field=name&search_field=company_name&search_field=description&enable_snippets=false&hhtmSource=vacancy_search_list&hhtmSourceLabel=vacancy_search_list'> selector="form[data-hh-tab-id='searchVacancy'] >> button[type='submit']">
+2026-08-15 15:07:48,749 | INFO | crawler | [hh] | Search input form submit button was clicked
+2026-08-15 15:07:48,749 | INFO | crawler | [hh] | Closing chromium browser

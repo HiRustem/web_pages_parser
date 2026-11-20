@@ -1,0 +1,19 @@
+request_timeout: 30000
+user_agent: "MyCrawler/1.0"
+log_level: "INFO"
+
+browser: "chromium" # "chromium" or "firefox"
+
+modes_global:
+  page_loading_wait_until_mode: "domcontentloaded"
+
+timeouts_global:
+  page_timeouts:
+    loading: 30000
+    wait_for: 500
+    wait_for_selector: 30000
+    
+  locator_timeouts:
+    fill: 30000
+    is_visible: 1500
+    click: 3000

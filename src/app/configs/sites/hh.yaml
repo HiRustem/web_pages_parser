@@ -1,0 +1,37 @@
+site_key: hh
+base_url: "https://kazan.hh.ru/search/vacancy"
+
+max_vacancies: 30
+
+timeouts:
+  wait_for_page_loading_timeout: 3000
+  phone_popup_close_timeout: 800
+
+selectors:
+  search_input:
+    search_input: "input[data-qa='search-input']"
+    search_input_form: "form[data-hh-tab-id='searchVacancy']"
+    search_input_form_submit_button: "button[type='submit']"
+
+  cookies_popup_accept_buttons: [
+    "[data-qa='cookies-policy-informer-accept']",
+    "button:has-text('Принять')", 
+    "button:has-text('Ок')", 
+    "text=Принимаю"
+  ]
+
+  phone_popup_close_buttons: [
+    "button:has-text('Продолжить без номера')",
+    "text=Позже",
+    "button:has-text('Продолжить без телефона')",
+    "button:has-text('Не сейчас')",
+    "[data-qa='bloko-modal-close']"
+  ]
+
+  vacancies:
+    search_header: "div[data-qa='vacancies-search-header']"
+    search_header_h1: "h1[data-qa='title']"
+
+  pagination:
+    pagination_nav_block: "nav[data-qa='pager-block']"
+    pagination_list_link_with_page_number: "li div a[data-qa='pager-page']"
