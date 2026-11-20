@@ -1,1 +1,1 @@
-A website parser refactor originally written with AI
+A website parser refactor originally written with AI. The corrected code is located in the src directory.
